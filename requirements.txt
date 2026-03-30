@@ -1,0 +1,36 @@
+# pip uninstall langchain langchain-core langchain-openai langchain-community langchain-chroma langchain-text-splitters langsmith chromadb -y
+# .venv\Scripts\pip install -r requirements.txt --index-url https://pypi.org/simple/ --no-cache-dir
+
+# Core LangChain — pinned to compatible versions
+langchain==0.3.7
+langchain-core==0.3.28
+langchain-openai==0.2.14
+langchain-community==0.3.7
+langchain-text-splitters==0.3.2
+langchain-chroma==0.1.4
+langsmith==0.1.147
+
+# Vector store
+chromadb==0.5.23
+
+# Azure OpenAI
+openai==1.58.1
+
+# Confluence + web
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Teams bot
+botbuilder-core==4.16.1
+botbuilder-integration-aiohttp==4.16.1
+aiohttp==3.9.5
+
+# Azure identity
+azure-identity==1.19.0
+
+# Utils
+python-dotenv==1.0.1
+
+# API layer (for future FastAPI exposure)
+fastapi==0.115.6
+uvicorn==0.32.1
